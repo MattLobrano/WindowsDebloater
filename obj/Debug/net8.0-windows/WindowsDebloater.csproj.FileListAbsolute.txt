@@ -1,0 +1,15 @@
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\bin\Debug\net8.0-windows\WindowsDebloater.exe
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\bin\Debug\net8.0-windows\WindowsDebloater.deps.json
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\bin\Debug\net8.0-windows\WindowsDebloater.runtimeconfig.json
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\bin\Debug\net8.0-windows\WindowsDebloater.dll
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\bin\Debug\net8.0-windows\WindowsDebloater.pdb
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.AssemblyInfoInputs.cache
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.AssemblyInfo.cs
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.csproj.CoreCompileInputs.cache
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.sourcelink.json
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.dll
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\refint\WindowsDebloater.dll
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.pdb
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.genruntimeconfig.cache
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\ref\WindowsDebloater.dll
