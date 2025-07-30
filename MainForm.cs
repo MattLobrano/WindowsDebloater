@@ -15,34 +15,39 @@ namespace WindowsDebloater
         private void btnDebloat_Click(object sender, EventArgs e)
         {
             if (chkCortana.Checked)
-                RunPowerShellScript("scripts\\RemoveCortana.ps1");
+                RunPowerShellScript(@"scripts\RemoveCortana.ps1");
 
             if (chkXbox.Checked)
-                RunPowerShellScript("scripts\\RemoveXbox.ps1");
+                RunPowerShellScript(@"scripts\RemoveXbox.ps1");
 
-            MessageBox.Show("Selected debloat actions completed.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Selected actions completed.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void RunPowerShellScript(string scriptPath)
+        private void RunPowerShellScript(string relativeScriptPath)
         {
-            if (!File.Exists(scriptPath))
-            {
-                MessageBox.Show($"Script not found: {scriptPath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
             try
             {
-                var process = new Process();
-                process.StartInfo.FileName = "powershell.exe";
-                process.StartInfo.Arguments = $"-ExecutionPolicy Bypass -File \"{scriptPath}\"";
-                process.StartInfo.CreateNoWindow = true;
-                process.StartInfo.UseShellExecute = false;
-                process.Start();
+                string scriptPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativeScriptPath);
+
+                if (!File.Exists(scriptPath))
+                {
+                    MessageBox.Show($"Script not found:\n{scriptPath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                var psi = new ProcessStartInfo
+                {
+                    FileName = "powershell.exe",
+                    Arguments = $"-NoProfile -ExecutionPolicy Bypass -File \"{scriptPath}\"",
+                    UseShellExecute = true,
+                    Verb = "runas" // Run as administrator
+                };
+
+                Process.Start(psi);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Failed to run script:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error running script:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

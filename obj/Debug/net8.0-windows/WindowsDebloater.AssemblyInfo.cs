@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WindowsDebloater")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a77f991ed3bbc9df0048fa940f71fd4064bc3ded")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4255b3300212f9ad74d0abe1dd200c1bec7ddcda")]
 [assembly: System.Reflection.AssemblyProductAttribute("WindowsDebloater")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WindowsDebloater")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,6 +5,15 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
+  <PropertyGroup>
+  <ApplicationManifest>app.manifest</ApplicationManifest>
+</PropertyGroup>
+
+<ItemGroup>
+  <None Include="scripts\**\*.*">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+
 
 </Project>
-

@@ -13,3 +13,5 @@ C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\ne
 C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.pdb
 C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\WindowsDebloater.genruntimeconfig.cache
 C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\obj\Debug\net8.0-windows\ref\WindowsDebloater.dll
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\bin\Debug\net8.0-windows\scripts\removeCortana.ps1
+C:\Users\matti\OneDrive\Documents\WindowsDebloater\WindowsDebloater\bin\Debug\net8.0-windows\scripts\removeXbox.ps1
